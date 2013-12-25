@@ -15,3 +15,4 @@ Building on Windows
 -------------------
 See http://www.cmake.org/cmake/help/runningcmake.html
 
+This program was originally written for http://stackoverflow.com/questions/20773952/run-a-exe-file-with-a-parameter-by-default/20773968#20773968
