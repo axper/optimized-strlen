@@ -19,6 +19,7 @@ void printBits(size_t const size, void const * const ptr)
 
 int main()
 {
+	int i;
 	uint32_t a = 0;
 	uint32_t d = 0;
 	const uint32_t magic = 0x7EFEFEFF;
@@ -30,7 +31,7 @@ int main()
 	};
 
 
-	for (int i = 0; i != sizeof(numbers) / sizeof(numbers[ 0 ]); i++) {
+	for (i = 0; i != sizeof(numbers) / sizeof(numbers[ 0 ]); i++) {
 		a = numbers[ i ];
 		d = magic;
 
